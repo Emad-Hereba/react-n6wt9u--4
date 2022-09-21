@@ -10,5 +10,5 @@ const cartSlice = createSlice({
 name: 'cart',
 intialState,
 });
-export default cartSlice.reducer;
+export default cartSlice;
 //console.log(createSlice)

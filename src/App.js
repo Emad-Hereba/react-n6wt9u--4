@@ -1,11 +1,13 @@
 import React from "react";
+import Navbar from './components/Navbar';
 
 
-export default function App() {
+function App() {
   return (
-    <div>
-      <h1>Redux toolKit App Last Emad Hereba</h1>
-      <p>only </p>
-    </div>
+    <main>
+      <Navbar/>
+      <h1>Redux toolKit by Emad Hereba</h1>
+    </main>
   );
 }
+export default App;
